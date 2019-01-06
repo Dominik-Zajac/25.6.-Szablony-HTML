@@ -1,0 +1,50 @@
+body {
+	background-color: #353b48;
+}
+
+form {
+	max-width: 35%;
+
+	margin: 0 auto;
+	padding: 10px;
+	
+	border: 1px dashed orange;
+	text-align: center;
+}
+
+p {
+	color: orange;
+}
+
+button {
+	width: 80px;
+	height: 30px;
+
+	cursor: pointer;
+	text-transform: uppercase;
+	border-radius: 5px;
+	border: 2px solid orange;
+	background-color: transparent;
+	color: orange;
+}
+button:hover {
+	color: gold;
+	border-color: gold;
+}
+
+.welcome-page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	max-width: 50%;
+
+	margin: 0 auto;
+
+	border: 1px dashed orange;
+	border-radius: 5px;
+}
+
+h1 {
+	color: orange;
+}
